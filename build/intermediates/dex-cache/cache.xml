@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/candyhh/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.4.0_a4d7329ac895607382a5ebccc529aa6bb8d7b43a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.0_98e3d2d74183049d25d6fe6b957972f7115a4772.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.0_aaca4ef0cffe3104caa4b3245ecf82e35b86a514.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.0_c83b178fd572383b5b19012aceca28067ec985c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_01f5dda327b45fe7a752a73ab9bc5ba8a02af310.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/candyhh/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/pre-dexed/debug/glide-3.7.0_c25f5040c9cb9c33cb375936fe7646044e94a3bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.0_35ecf1448ca23ee91ce27588c4137fe018b9e0f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.0_ffd812b362de5d8b2c21629d0fcfe49d238a6417.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/candyhh/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.4.0_a4d7329ac895607382a5ebccc529aa6bb8d7b43a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.0_ccdc71fdafd671aaed8bfb3d7f94e908eea7b076.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/candyhh/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/pre-dexed/debug/glide-3.7.0_c25f5040c9cb9c33cb375936fe7646044e94a3bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.0_9ba832b20e641a2f4a522671a94228d135b8f828.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_4e26fc0cf8ebbcc1982a8a2f084e8c058f4a54bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_a9238a496fc8ccf02de08f98b0cec730bec33cf1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/candyhh/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.0_259d2a860d2011397cbb1e95b9c71d2dac99bc28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.0_3d9123d3bf35cb969a504b694becc258bc674fe0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_4e26fc0cf8ebbcc1982a8a2f084e8c058f4a54bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.0_1d08a99976d88d66a9b6b3216d2e81fc269501e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_108b47fc12a03b4368f45cd053383034c5d4f403.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_769b2fc9ef712146fdb2c6492af2a06b6fb022eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.0_40bbef8a1274ec2bf7a96cad681b7478815cf3d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_28bb6718e4c6fb96ad0de3cda59846d1b8897728.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Users/candyhh/Documents/JackProject/RecyclerViewPager/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.0_289e0dbda7c5ba6f8c4014549031800e0bf294b6.jar" />
+    </item>
+
+</items>
