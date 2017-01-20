@@ -16,11 +16,11 @@ import android.util.DisplayMetrics;
  */
 public class ScrollSpeedLinearLayoutManger extends LinearLayoutManager {
     private float MILLISECONDS_PER_INCH = 0.03f;
-    private Context contxt;
+    private Context context;
 
     public ScrollSpeedLinearLayoutManger(Context context, int orientation, boolean reverseLayout) {
         super(context,orientation,reverseLayout);
-        this.contxt = context;
+        this.context = context;
     }
 
     @Override
@@ -33,8 +33,6 @@ public class ScrollSpeedLinearLayoutManger extends LinearLayoutManager {
                                 .computeScrollVectorForPosition(targetPosition);
                     }
 
-                    //This returns the milliseconds it takes to
-                    //scroll one pixel.
                     @Override
                     protected float calculateSpeedPerPixel
                     (DisplayMetrics displayMetrics) {
@@ -51,10 +49,10 @@ public class ScrollSpeedLinearLayoutManger extends LinearLayoutManager {
     public void setSpeedSlow() {
         //自己在这里用density去乘，希望不同分辨率设备上滑动速度相同
         //0.3f是自己估摸的一个值，可以根据不同需求自己修改
-        MILLISECONDS_PER_INCH = contxt.getResources().getDisplayMetrics().density * 0.3f;
+        MILLISECONDS_PER_INCH = context.getResources().getDisplayMetrics().density * 0.5f;
     }
 
     public void setSpeedFast() {
-        MILLISECONDS_PER_INCH = contxt.getResources().getDisplayMetrics().density * 0.03f;
+        MILLISECONDS_PER_INCH = context.getResources().getDisplayMetrics().density * 0.03f;
     }
 }
