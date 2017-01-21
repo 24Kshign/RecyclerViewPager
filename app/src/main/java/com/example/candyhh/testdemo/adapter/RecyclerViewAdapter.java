@@ -34,7 +34,9 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewHolder
 
     @Override
     public void onBindViewHolder(RecyclerViewHolder holder, int position) {
-        Glide.with(mContext).load(mList.get(position % mList.size()).getImageUrl()).placeholder(R.mipmap.ic_launcher).into(holder.ivImage);
+        Glide.with(mContext).load(mList.get(position % mList.size())
+                .getImageUrl()).placeholder(R.mipmap.ic_launcher)
+                .into(holder.ivImage);
         holder.tvName.setText(mList.get(position % mList.size()).getName());
     }
 
