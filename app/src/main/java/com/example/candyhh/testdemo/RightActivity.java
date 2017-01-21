@@ -5,18 +5,18 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import com.example.candyhh.testdemo.adapter.RecyclerViewAdapter;
-import com.example.candyhh.testdemo.snap_helper.LeftSnapHelper;
+import com.example.candyhh.testdemo.snap_helper.RightSnapHelper;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
- * Created by jack on 17/1/20
+ * Created by jack on 17/1/21
  */
 
-public class LeftActivity extends BaseActivity {
+public class RightActivity extends BaseActivity {
 
-    private static final String TAG = "LeftActivity";
+    private static final String TAG = "RightActivity";
 
     @BindView(R.id.al_recyclerview)
     RecyclerView alRecyclerview;
@@ -34,7 +34,7 @@ public class LeftActivity extends BaseActivity {
         mAdapter = new RecyclerViewAdapter(this, getData());
         alRecyclerview.setAdapter(mAdapter);
         alRecyclerview.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
-        LeftSnapHelper mLeftSnapHelper = new LeftSnapHelper();
+        RightSnapHelper mLeftSnapHelper = new RightSnapHelper();
         mLeftSnapHelper.attachToRecyclerView(alRecyclerview);
     }
 }

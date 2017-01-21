@@ -29,6 +29,9 @@
 
         <activity android:name=".CenterActivity"
             android:screenOrientation="portrait"/>
+
+        <activity android:name=".RightActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

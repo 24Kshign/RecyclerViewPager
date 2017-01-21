@@ -43,7 +43,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 startActivity(new Intent(this, CenterActivity.class));
                 break;
             case R.id.am_btn_right:
-
+                startActivity(new Intent(this, RightActivity.class));
                 break;
         }
     }

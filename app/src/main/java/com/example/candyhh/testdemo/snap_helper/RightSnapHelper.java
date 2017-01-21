@@ -8,11 +8,11 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 /**
- * Created by jack on 17/1/20
- * 左对齐
+ * Created by jack on 17/1/21
+ * 右对齐
  */
 
-public class LeftSnapHelper extends LinearSnapHelper {
+public class RightSnapHelper extends LinearSnapHelper {
 
     private OrientationHelper mHorizontalHelper;
 
@@ -28,7 +28,7 @@ public class LeftSnapHelper extends LinearSnapHelper {
         //注:由于是横向滚动,在这里我们只考虑横轴的值
         int[] out = new int[2];
         if (layoutManager.canScrollHorizontally()) {
-            out[0] = distanceToStart(targetView, getHorizontalHelper(layoutManager));
+            out[0] = distanceToEnd(targetView, getHorizontalHelper(layoutManager));
         } else {
             out[0] = 0;
         }
@@ -42,42 +42,37 @@ public class LeftSnapHelper extends LinearSnapHelper {
      * @param helper
      * @return
      */
-    private int distanceToStart(View targetView, OrientationHelper helper) {
-        return helper.getDecoratedStart(targetView) - helper.getStartAfterPadding();
+    private int distanceToEnd(View targetView, OrientationHelper helper) {
+        return helper.getDecoratedEnd(targetView) - helper.getEndAfterPadding();
     }
 
     @Override
     public View findSnapView(RecyclerView.LayoutManager layoutManager) {
-        return findStartView(layoutManager, getHorizontalHelper(layoutManager));
+        return findEndView(layoutManager, getHorizontalHelper(layoutManager));
     }
 
     /**
      * 找到第一个显示的view
+     *
      * @param layoutManager
      * @param helper
      * @return
      */
-    private View findStartView(RecyclerView.LayoutManager layoutManager,
-                               OrientationHelper helper) {
+    private View findEndView(RecyclerView.LayoutManager layoutManager, OrientationHelper helper) {
         if (layoutManager instanceof LinearLayoutManager) {
-            int firstChild = ((LinearLayoutManager) layoutManager).findFirstVisibleItemPosition();
             int lastChild = ((LinearLayoutManager) layoutManager).findLastVisibleItemPosition();
-            if (firstChild == RecyclerView.NO_POSITION) {
+            if (lastChild == RecyclerView.NO_POSITION) {
                 return null;
             }
 
-            //这是为了解决当翻到最后一页的时候，最后一个Item不能完整显示的问题
-            if (lastChild == layoutManager.getItemCount() - 1) {
-                return layoutManager.findViewByPosition(lastChild);
-            }
-            View child = layoutManager.findViewByPosition(firstChild);
+            View child = layoutManager.findViewByPosition(lastChild);
 
-            //得到此时需要左对齐显示的条目
-            if (helper.getDecoratedEnd(child) >= helper.getDecoratedMeasurement(child) / 2
-                    && helper.getDecoratedEnd(child) > 0) {
+            //得到此时需要右对齐显示的条目
+            if (helper.getDecoratedStart(child) >= helper.getDecoratedMeasurement(child) / 2
+                    && helper.getDecoratedStart(child) > 0) {
                 return child;
             } else {
-                return layoutManager.findViewByPosition(firstChild + 1);
+                return layoutManager.findViewByPosition(lastChild - 1);
             }
         }
         return super.findSnapView(layoutManager);
